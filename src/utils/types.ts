@@ -8,3 +8,5 @@ export interface Project {
   url: string
   status: Status
 }
+
+export type SVGProps = React.ComponentPropsWithoutRef<'svg'>
