@@ -20,7 +20,7 @@ export default function SocialLinks() {
   const socialLinks: ISocialLink[] = [
     {
       name: 'LinkedIn',
-      url: 'https://www.linkedin.com/in/andrelsmelo',
+      url: 'https://www.linkedin.com/in/andré-melo-013087128',
       icon: LinkedInIcon,
     },
     {
@@ -40,7 +40,7 @@ export default function SocialLinks() {
     },
     {
       name: 'Currículo',
-      url: '/André Melo - CV.pdf',
+      url: '/andre-melo-cv.pdf',
       icon: CurriculoIcon,
     },
     {
@@ -55,12 +55,12 @@ export default function SocialLinks() {
     },
     {
       name: 'Instagram',
-      url: 'https://www.instagram.com/andrelsmelo',
+      url: 'https://www.instagram.com/drezi0',
       icon: InstagramIcon,
     },
     {
       name: 'Twitter',
-      url: 'https://twitter.com/andrelsmelo',
+      url: 'https://twitter.com/notdrezio',
       icon: TwitterIcon,
     },
   ]
@@ -69,7 +69,7 @@ export default function SocialLinks() {
     <ul className="flex justify-center space-x-4">
       {socialLinks.map((link, index) => (
         <li key={index}>
-          <a href={link.url} target="_blank" rel="noreferrer">
+          <a href={link.url} target="_blank" rel="noreferrer" title={link.name}>
             <link.icon className="hover:scale-125 transition-all ease-in-out" />
           </a>
         </li>

@@ -4,7 +4,8 @@ export default function Header() {
   return (
     <header className="flex items-center justify-between w-full h-24 px-8 border-b">
       <Link href="/">
-        <h1 className="text-2xl font-bold">André L S Melo</h1>
+        {/** Add Icon */}
+        <h1 className="text-2xl font-bold">André Melo</h1>
       </Link>
       <nav>
         <ul className="flex space-x-4">

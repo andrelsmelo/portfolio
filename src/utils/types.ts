@@ -5,7 +5,8 @@ export interface Project {
   title: string
   description: string
   image: string
-  url: string
+  live: string
+  code: string
   status: Status
 }
 

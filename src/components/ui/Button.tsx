@@ -1,3 +1,4 @@
+'use client'
 import { ReactNode } from 'react'
 
 interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
@@ -32,7 +33,7 @@ const Button = ({ children, onClick, variant }: ButtonProps) => {
   return (
     <button
       onClick={onClick}
-      className={`px-4 py-2 rounded ${variantClasses[variant]}`}
+      className={`px-4 py-2 rounded hover:scale-105 hover:cursor-pointer transition-all ease-in-out ${variantClasses[variant]}`}
     >
       {children}
     </button>

@@ -1,24 +1,28 @@
-import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Lato } from 'next/font/google'
 import './globals.css'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
+import { cn } from '@/lib/utils'
+import './globals.css'
+import { Metadata } from 'next'
 
-const inter = Inter({ subsets: ['latin'] })
-
-export const metadata: Metadata = {
-  title: 'André Melo Portfolio',
-  description: 'André Melo Portfolio',
+const lato = Lato({
+  weight: ['400', '700'],
+  subsets: ['latin'],
+})
+interface LayoutProps {
+  children: React.ReactNode
 }
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode
-}>) {
+export const metadata: Metadata = {
+  title: 'André Melo',
+  description: 'Portfólio de André Melo',
+}
+
+export default function Layout({ children }: LayoutProps) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={cn('antialiased', lato.className)}>
         <Header />
         {children}
         <Footer />
