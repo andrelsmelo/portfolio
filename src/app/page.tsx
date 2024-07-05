@@ -15,9 +15,9 @@ export default function Home() {
           <div className="container grid items-center gap-6 px-4 md:px-6 lg:grid-cols-2 lg:gap-10">
             <div className="space-y-4">
               <h1 className="text-4xl font-bold tracking-tighter md:text-5xl/tight">
-                Olá, eu sou André Melo
+                Olá 🤙, me chamo André Melo
               </h1>
-              <h2 className="text-2xl font-semibold text-muted-foreground">
+              <h2 className="text-2xl font-semibold text-slate-500 text-muted-foreground">
                 Full Stack Developer | Project Manager | Scrum Master
               </h2>
               <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
