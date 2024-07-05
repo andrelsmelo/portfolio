@@ -1,6 +1,8 @@
 import { Project } from '@/utils/types'
 import { Status } from '@/utils/enums'
 
+const astley = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ&pp=ygUGYXN0bGV5'
+
 export const projects: Project[] = [
   {
     id: 1,
@@ -27,8 +29,8 @@ export const projects: Project[] = [
     title: 'Devo dar Deploy?',
     description:
       'Um projeto inspirado ~copiado~ pelo site https://shouldideploy.today/ mais muito mais abrasileirado.',
-    image: 'gato.jpg',
-    live: 'https://devo-dar-deploy.andrelsmelo.tech/',
+    image: 'xablau.jpeg',
+    live: astley,
     code: 'https://github.com/andrelsmelo/devodardeploy',
     status: Status.TODO,
   },
