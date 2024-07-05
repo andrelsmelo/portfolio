@@ -33,7 +33,7 @@ export default function Home() {
               width="433"
               height="577"
               alt="Hero"
-              className="top-0 mx-auto aspect-square rounded-xl object-cover sm:w-full lg:w-auto"
+              className="top-0 mx-auto aspect-square rounded-xl object-cover sm:hidden"
             />
           </div>
         </section>
