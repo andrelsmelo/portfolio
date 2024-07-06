@@ -31,9 +31,9 @@ export default function Home() {
             <Image
               src="/andrelsmelo.png"
               width="433"
-              height="577"
+              height="377"
               alt="Hero"
-              className="top-0 mx-auto aspect-square rounded-xl object-cover sm:hidden"
+              className="top-0 mx-auto object-cover hidden lg:block"
             />
           </div>
         </section>
