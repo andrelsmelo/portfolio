@@ -11,7 +11,7 @@ export const projects: Project[] = [
       'Um jogo onde você tem que adivinhar um número entre 1 a 100 em X tentativas para pontuar no ranking.',
     image: 'guess.jpeg',
     live: 'https://guess-number.andrelsmelo.tech/',
-    code: 'https://github.com/andrelsmelo/guess-number',
+    code: astley,
     status: Status.DONE,
   },
   {
@@ -21,7 +21,7 @@ export const projects: Project[] = [
       'Um RPG de texto onde você deve escolher suas ações para desvendar misterios de uma terra assolada por um mal obscuro.',
     image: 'pyp.jpeg',
     live: 'https://pyp.andrelsmelo.tech/',
-    code: 'https://github.com/andrelsmelo/pyp',
+    code: astley,
     status: Status.IN_PROGRESS,
   },
   {
@@ -31,7 +31,7 @@ export const projects: Project[] = [
       'Um projeto inspirado ~copiado~ pelo site https://shouldideploy.today/ mais muito mais abrasileirado.',
     image: 'xablau.jpeg',
     live: astley,
-    code: 'https://github.com/andrelsmelo/devodardeploy',
+    code: astley,
     status: Status.TODO,
   },
   {
@@ -40,7 +40,7 @@ export const projects: Project[] = [
     description: 'Descriptografe MD5 com essa ferramenta.',
     image: 'unhash.jpeg',
     live: 'https://unhash-md5.andrelsmelo.tech/',
-    code: 'https://github.com/andrelsmelo/unhash-md5',
+    code: astley,
     status: Status.IN_PROGRESS,
   },
   {
@@ -49,7 +49,7 @@ export const projects: Project[] = [
     description: 'Um jogo de sudoku simples.',
     image: 'sudoku.jpeg',
     live: 'https://sudoku.andrelsmelo.tech/',
-    code: 'https://github.com/andrelsmelo/sudoku',
+    code: astley,
     status: Status.DONE,
   },
   {
@@ -58,7 +58,7 @@ export const projects: Project[] = [
     description: 'Uma extensão para gerar documentos Brasileiros válidos.',
     image: 'doc-gen.jpeg',
     live: 'https://marketplace.visualstudio.com/items?itemName=andrelsmelo.brazilian-doc-gen',
-    code: 'https://github.com/andrelsmelo/brazilian-doc-gen-ext',
+    code: astley,
     status: Status.DONE,
   },
 ]
