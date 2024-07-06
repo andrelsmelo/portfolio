@@ -23,7 +23,7 @@ export default function Home() {
               <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 Sou um entusiasta da tecnologia. No dia a dia, você pode me
                 encontrar mergulhado em código, liderando times ou planejando
-                sprints. Completamento louco por troubleshooting e aprendizado
+                sprints. Completamente louco por troubleshooting e aprendizado
                 contínuo.
               </p>
               <DownloadCvButton />
