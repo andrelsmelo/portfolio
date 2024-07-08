@@ -1,0 +1,67 @@
+{
+  "Home": {
+    "heroTitle": "Olá 🤙, me chamo André Melo",
+    "heroSubtitle": "Desenvolvedor Full Stack | Gerente de Projetos | Scrum Master",
+    "heroDescription": "Sou um entusiasta da tecnologia. No dia a dia, você pode me encontrar mergulhado em código, liderando times ou planejando sprints. Completamente louco por troubleshooting e aprendizado contínuo.",
+    "aboutTitle": "Sobre mim",
+    "aboutParagraph1": "Durante meu tempo livre, gosto de me aventurar nas mesas de Poker, em jogos online ou com as minhas habilidades na cozinha.",
+    "aboutParagraph2": "Mas de longe, onde mais me divirto, aprendo e busco ensinar é no meu papel de Pai, sou completamente maluco pelo meu filhote.",
+    "aboutParagraph3": "Seja na criação de soluções inovadoras, nas aventuras em meio a meus hobbies ou no meu tempo de qualidade com minha família, tem uma coisa que sempre me acompanha, a paixão por tudo aquilo que faço.",
+    "aboutParagraph4": "Venha descobrir mais sobre mim e minhas paixões!",
+    "projectsTitle": "Projetos",
+    "projectsDescription": "Abaixo você pode encontrar diversos projetos meus, onde busco aplicar um conhecimento específico, aprender algo novo ou simplesmente me divertir.",
+    "contactTitle": "Entrar em contato",
+    "contactDescription": "Gostou de algum projeto? Quer saber mais sobre mim? Ou simplesmente bater um papo? Fique à vontade para entrar em contato!",
+    "contactNamePlaceholder": "Name",
+    "contactEmailPlaceholder": "Email",
+    "contactMessagePlaceholder": "Message",
+    "contactButton": "Enviar Mensagem"
+  },
+  "Footer": {
+    "text": "Feito com 🖤 por",
+    "link": "André Melo"
+  },
+  "Header": {
+    "title": "André Melo",
+    "about": "Sobre",
+    "projects": "Projetos",
+    "contact": "Contato"
+  },
+  "Card": {
+    "live": "Ao vivo",
+    "code": "Código"
+  },
+  "DownloadButton": {
+    "text": "Download CV"
+  },
+  "Projects": [
+    {
+      "title": "Guess Number",
+      "description": "Um jogo onde você tem que adivinhar um número entre 1 a 100 em X tentativas para pontuar no ranking."
+    },
+    {
+      "title": "Crack Of Darkness",
+      "description": "Um RPG de texto onde você deve escolher suas ações para desvendar misterios de uma terra assolada por um mal obscuro."
+    },
+    {
+      "title": "Devo dar Deploy?",
+      "description": "Um projeto inspirado ~copiado~ pelo site https://shouldideploy.today/ mais muito mais abrasileirado."
+    },
+    {
+      "title": "Unhash MD5",
+      "description": "Descriptografe MD5 com essa ferramenta."
+    },
+    {
+      "title": "Sudoku",
+      "description": "Um jogo de sudoku simples."
+    },
+    {
+      "title": "Doc Gen Ext",
+      "description": "Uma extensão para gerar documentos Brasileiros válidos."
+    }
+  ],
+  "LocaleSwitcher": {
+    "label": "Alterar idioma",
+    "locale": "{locale, select, pt-BR {🇧🇷 Português} en {🇺🇸 Inglês} es {🇪🇸 Espanhol}}"
+  }
+}

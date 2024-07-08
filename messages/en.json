@@ -1,0 +1,67 @@
+{
+  "Home": {
+    "heroTitle": "Hello 🤙, I'm André Melo",
+    "heroSubtitle": "Full Stack Developer | Project Manager | Scrum Master",
+    "heroDescription": "I am a technology enthusiast. In my daily life, you can find me diving into code, leading teams, or planning sprints. Completely crazy about troubleshooting and continuous learning.",
+    "aboutTitle": "About me",
+    "aboutParagraph1": "During my free time, I like to venture into Poker tables, online games, or with my cooking skills.",
+    "aboutParagraph2": "But by far, where I have the most fun, learn, and seek to teach is in my role as a Father, I am completely crazy about my kid.",
+    "aboutParagraph3": "Whether creating innovative solutions, adventures in my hobbies, or spending quality time with my family, one thing always accompanies me, the passion for everything I do.",
+    "aboutParagraph4": "Come and discover more about me and my passions!",
+    "projectsTitle": "Projects",
+    "projectsDescription": "Below you can find several of my projects, where I seek to apply specific knowledge, learn something new, or simply have fun.",
+    "contactTitle": "Contact",
+    "contactDescription": "Did you like any project? Want to know more about me? Or just have a chat? Feel free to contact me!",
+    "contactNamePlaceholder": "Name",
+    "contactEmailPlaceholder": "Email",
+    "contactMessagePlaceholder": "Message",
+    "contactButton": "Send Message"
+  },
+  "Footer": {
+    "text": "Made with 🖤 by",
+    "link": "André Melo"
+  },
+  "Header": {
+    "title": "André Melo",
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "Card": {
+    "live": "Live",
+    "code": "Code"
+  },
+  "DownloadButton": {
+    "text": "Download CV"
+  },
+  "Projects": [
+    {
+      "title": "Guess Number",
+      "description": "A game where you have to guess a number between 1 to 100 in X attempts to score in the ranking."
+    },
+    {
+      "title": "Crack Of Darkness",
+      "description": "A text RPG where you must choose your actions to unravel mysteries in a land ravaged by dark evil."
+    },
+    {
+      "title": "Should I Deploy?",
+      "description": "A project inspired ~copied~ by the site https://shouldideploy.today/ but much more Brazilian."
+    },
+    {
+      "title": "Unhash MD5",
+      "description": "Decrypt MD5 with this tool."
+    },
+    {
+      "title": "Sudoku",
+      "description": "A simple sudoku game."
+    },
+    {
+      "title": "Doc Gen Ext",
+      "description": "An extension to generate valid Brazilian documents."
+    }
+  ],
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, pt-BR {🇧🇷 Portuguese} en {🇺🇸 English} es {🇪🇸 Spanish}}"
+  }
+}

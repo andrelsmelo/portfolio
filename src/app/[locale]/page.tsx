@@ -1,10 +1,14 @@
 import Card from '@/components/Card'
-import { projects } from '@/contents/projects'
+import GetProjects from '@/contents/projects'
 import SocialLinks from '@/components/SocialLinks'
 import DownloadCvButton from '@/components/DownloadCvButton'
 import Image from 'next/image'
+import { useTranslations } from 'next-intl'
 
 export default function Home() {
+  const t = useTranslations('Home')
+  const projects = GetProjects()
+
   return (
     <div className="flex flex-col min-h-[100dvh] w-full items-center">
       <main className="flex-1">
@@ -15,16 +19,13 @@ export default function Home() {
           <div className="container grid items-center gap-6 px-4 md:px-6 lg:grid-cols-2 lg:gap-10">
             <div className="space-y-4">
               <h1 className="text-4xl font-bold tracking-tighter md:text-5xl/tight">
-                Olá 🤙, me chamo André Melo
+                {t('heroTitle')}
               </h1>
               <h2 className="text-2xl font-semibold text-slate-500 text-muted-foreground">
-                Full Stack Developer | Project Manager | Scrum Master
+                {t('heroSubtitle')}
               </h2>
               <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Sou um entusiasta da tecnologia. No dia a dia, você pode me
-                encontrar mergulhado em código, liderando times ou planejando
-                sprints. Completamente louco por troubleshooting e aprendizado
-                contínuo.
+                {t('heroDescription')}
               </p>
               <DownloadCvButton />
             </div>
@@ -44,26 +45,13 @@ export default function Home() {
           <div className="container grid items-center gap-6 px-4 md:px-6 lg:grid-cols-2 lg:gap-10">
             <div className="space-y-4">
               <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
-                Sobre mim
+                {t('aboutTitle')}
               </h2>
               <div className="max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed gap-3 flex flex-col">
-                <p>
-                  Durante meu tempo livre, gosto de me aventurar nas mesas de
-                  Poker, em jogos online ou com as minhas habilidades na
-                  cozinha.
-                </p>
-                <p>
-                  Mas de longe, onde mais me divirto, aprendo e busco ensinar é
-                  no meu papel de Pai, sou completamente maluco pelo meu
-                  filhote.
-                </p>
-                <p>
-                  Seja na criação de soluções inovadoras, nas aventuras em meio
-                  a meus hobbies ou no meu tempo de qualidade com minha família,
-                  tem uma coisa que sempre me acompanha, a paixão por tudo
-                  aquilo que faço.
-                </p>
-                <p>Venha descobrir mais sobre mim e minhas paixões!</p>
+                <p>{t('aboutParagraph1')}</p>
+                <p>{t('aboutParagraph2')}</p>
+                <p>{t('aboutParagraph3')}</p>
+                <p> {t('aboutParagraph4')}</p>
               </div>
             </div>
           </div>
@@ -76,12 +64,10 @@ export default function Home() {
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  Projetos
+                  {t('projectsTitle')}
                 </h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Abaixo você pode encontrar diversos projetos meus, onde busco
-                  aplicar um conhecimento específico, aprender algo novo ou
-                  simplesmente me divertir.
+                  {t('projectsDescription')}
                 </p>
               </div>
             </div>
@@ -107,28 +93,29 @@ export default function Home() {
           <div className="container grid items-center justify-center gap-4 px-4 text-center md:px-6">
             <div className="space-y-3">
               <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
-                Entrar em contato
+                {t('contactTitle')}
               </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Gostou de algum projeto? Quer saber mais sobre mim? Ou
-                simplesmente bater um papo? Fique à vontade para entrar em
-                contato!
+                {t('contactDescription')}
               </p>
             </div>
             <div className="mx-auto w-full max-w-sm space-y-2">
               <form className="flex flex-col gap-2">
                 <input
                   type="text"
-                  placeholder="Name"
+                  placeholder={t('contactNamePlaceholder')}
                   className="max-w-lg flex-1"
                 />
                 <input
                   type="email"
-                  placeholder="Email"
+                  placeholder={t('contactEmailPlaceholder')}
                   className="max-w-lg flex-1"
                 />
-                <textarea placeholder="Message" className="max-w-lg flex-1" />
-                <button type="submit">Enviar Mensagem</button>
+                <textarea
+                  placeholder={t('contactMessagePlaceholder')}
+                  className="max-w-lg flex-1"
+                />
+                <button type="submit">{t('contactButton')}</button>
               </form>
             </div>
           </div>

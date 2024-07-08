@@ -1,5 +1,5 @@
 'use client'
-
+import { useTranslations } from 'next-intl'
 import Button from './ui/Button'
 
 const DownloadCvButton = () => {
@@ -10,9 +10,11 @@ const DownloadCvButton = () => {
     link.click()
   }
 
+  const t = useTranslations('DownloadButton')
+
   return (
     <Button variant="dark" onClick={downloadCv}>
-      Download CV
+      {t('text')}
     </Button>
   )
 }

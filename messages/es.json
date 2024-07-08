@@ -1,0 +1,67 @@
+{
+  "Home": {
+    "heroTitle": "Hola 🤙, me llamo André Melo",
+    "heroSubtitle": "Desarrollador Full Stack | Gerente de Proyectos | Scrum Master",
+    "heroDescription": "Soy un entusiasta de la tecnología. En mi vida diaria, puedes encontrarme inmerso en código, liderando equipos o planificando sprints. Completamente loco por la resolución de problemas y el aprendizaje continuo.",
+    "aboutTitle": "Sobre mí",
+    "aboutParagraph1": "Durante mi tiempo libre, me gusta aventurarme en mesas de Poker, juegos en línea o con mis habilidades culinarias.",
+    "aboutParagraph2": "Pero de lejos, donde más me divierto, aprendo y busco enseñar es en mi papel de Padre, estoy completamente loco por mi hijo.",
+    "aboutParagraph3": "Ya sea creando soluciones innovadoras, aventurándome en mis pasatiempos o pasando tiempo de calidad con mi familia, una cosa siempre me acompaña, la pasión por todo lo que hago.",
+    "aboutParagraph4": "¡Ven a descubrir más sobre mí y mis pasiones!",
+    "projectsTitle": "Proyectos",
+    "projectsDescription": "A continuación, puedes encontrar varios de mis proyectos, donde busco aplicar un conocimiento específico, aprender algo nuevo o simplemente divertirme.",
+    "contactTitle": "Contacto",
+    "contactDescription": "¿Te gustó algún proyecto? ¿Quieres saber más sobre mí? ¿O simplemente charlar? ¡Siéntete libre de contactarme!",
+    "contactNamePlaceholder": "Nombre",
+    "contactEmailPlaceholder": "Correo electrónico",
+    "contactMessagePlaceholder": "Mensaje",
+    "contactButton": "Enviar mensaje"
+  },
+  "Footer": {
+    "text": "Hecho con 🖤 por",
+    "link": "André Melo"
+  },
+  "Header": {
+    "title": "André Melo",
+    "about": "Sobre",
+    "projects": "Proyectos",
+    "contact": "Contacto"
+  },
+  "Card": {
+    "live": "En vivo",
+    "code": "Código"
+  },
+  "DownloadButton": {
+    "text": "Descargar CV"
+  },
+  "Projects": [
+    {
+      "title": "Adivina el Número",
+      "description": "Un juego donde tienes que adivinar un número entre 1 y 100 en X intentos para puntuar en el ranking."
+    },
+    {
+      "title": "Grieta de Oscuridad",
+      "description": "Un RPG de texto donde debes elegir tus acciones para desentrañar misterios en una tierra asolada por un mal oscuro."
+    },
+    {
+      "title": "¿Debo Desplegar?",
+      "description": "Un proyecto inspirado ~copiado~ por el sitio https://shouldideploy.today/ pero mucho más brasileño."
+    },
+    {
+      "title": "Desencriptar MD5",
+      "description": "Desencripta MD5 con esta herramienta."
+    },
+    {
+      "title": "Sudoku",
+      "description": "Un juego de sudoku simple."
+    },
+    {
+      "title": "Doc Gen Ext",
+      "description": "Una extensión para generar documentos válidos brasileños."
+    }
+  ],
+  "LocaleSwitcher": {
+    "label": "Cambiar idioma",
+    "locale": "{locale, select, pt-BR {🇧🇷 portugués} en {🇺🇸 Inglés} es {🇪🇸 Español}}"
+  }
+}

@@ -1,27 +1,32 @@
 import Link from 'next/link'
+import LanguageSwitcher from './LanguageSwitcher'
+import { useTranslations } from 'next-intl'
 
 export default function Header() {
+  const t = useTranslations('Header')
+
   return (
     <header className="flex items-center justify-between w-full h-24 px-8 border-b">
       <Link href="/">
         {/** Add Icon */}
-        <h1 className="text-2xl font-bold">André Melo</h1>
+        <h1 className="text-2xl font-bold">{t('title')}</h1>
       </Link>
+      <LanguageSwitcher />
       <nav>
         <ul className="flex space-x-4">
           <li>
             <a href="#sobre" className="text-gray-500 hover:text-gray-700">
-              Sobre
+              {t('about')}
             </a>
           </li>
           <li>
             <a href="#projetos" className="text-gray-500 hover:text-gray-700">
-              Projetos
+              {t('projects')}
             </a>
           </li>
           <li>
             <a href="#contato" className="text-gray-500 hover:text-gray-700">
-              Contato
+              {t('contact')}
             </a>
           </li>
         </ul>

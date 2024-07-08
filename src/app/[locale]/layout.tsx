@@ -1,10 +1,11 @@
 import { Lato } from 'next/font/google'
-import './globals.css'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import { cn } from '@/lib/utils'
-import './globals.css'
+import '@/styles/globals.css'
 import { Metadata } from 'next'
+import { NextIntlClientProvider } from 'next-intl'
+import { getMessages } from 'next-intl/server'
 
 const lato = Lato({
   weight: ['400', '700'],
@@ -12,6 +13,7 @@ const lato = Lato({
 })
 interface LayoutProps {
   children: React.ReactNode
+  params: { locale: string }
 }
 
 export const metadata: Metadata = {
@@ -19,13 +21,20 @@ export const metadata: Metadata = {
   description: 'Portfólio de André Melo',
 }
 
-export default function Layout({ children }: LayoutProps) {
+export default async function LocaleLayout({
+  children,
+  params: { locale },
+}: LayoutProps) {
+  const messages = await getMessages()
+
   return (
-    <html lang="en">
+    <html lang={locale}>
       <body className={cn('antialiased', lato.className)}>
-        <Header />
-        {children}
-        <Footer />
+        <NextIntlClientProvider messages={messages}>
+          <Header />
+          {children}
+          <Footer />
+        </NextIntlClientProvider>
       </body>
     </html>
   )

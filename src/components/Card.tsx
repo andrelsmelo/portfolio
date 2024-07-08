@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Button from './ui/Button'
 import { Status } from '@/utils/enums'
+import { useTranslations } from 'next-intl'
 
 interface CardProps {
   title: string
@@ -12,6 +13,8 @@ interface CardProps {
 }
 
 const Card = ({ title, description, image, status, live, code }: CardProps) => {
+  const t = useTranslations('Card')
+
   return (
     <div
       className="rounded-lg border bg-card text-card-foreground shadow-sm"
@@ -32,10 +35,10 @@ const Card = ({ title, description, image, status, live, code }: CardProps) => {
           <p className="text-sm text-muted-foreground">{description}</p>
           <div className="flex items-center gap-2">
             <a href={live}>
-              <Button variant="light">Live</Button>
+              <Button variant="light">{t('live')}</Button>
             </a>
             <a href={code}>
-              <Button variant="dark">Code</Button>
+              <Button variant="dark">{t('code')}</Button>
             </a>
           </div>
         </div>
