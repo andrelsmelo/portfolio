@@ -7,11 +7,13 @@ export default function Header() {
 
   return (
     <header className="flex items-center justify-between w-full h-24 px-8 border-b">
-      <Link href="/">
-        {/** Add Icon */}
-        <h1 className="text-2xl font-bold">{t('title')}</h1>
-      </Link>
-      <LanguageSwitcher />
+      <div className="flex items-center gap-4">
+        <Link href="/">
+          {/** Add Icon */}
+          <h1 className="text-2xl font-bold">{t('title')}</h1>
+        </Link>
+        <LanguageSwitcher />
+      </div>
       <nav>
         <ul className="flex space-x-4">
           <li>
