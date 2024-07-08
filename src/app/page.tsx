@@ -46,20 +46,25 @@ export default function Home() {
               <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
                 Sobre mim
               </h2>
-              <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Durante meu tempo livre, gosto de me aventurar nas mesas de
-                Poker, em jogos online ou com as minhas habilidades na cozinha.
-                {'\n'}
-                Mas de longe, onde mais me divirto, aprendo e busco ensinar é no
-                meu papel de Pai, sou completamente maluco pelo meu filhote.
-                {'\n'}
-                Seja na criação de soluções inovadoras, nas aventuras em meio a
-                meus hobbies ou no meu tempo de qualidade com minha família, tem
-                uma coisa que sempre me acompanha, a paixão por tudo aquilo que
-                faço.
-                {'\n'}
-                Venha descobrir mais sobre mim e minhas paixões!
-              </p>
+              <div className="max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed gap-3 flex flex-col">
+                <p>
+                  Durante meu tempo livre, gosto de me aventurar nas mesas de
+                  Poker, em jogos online ou com as minhas habilidades na
+                  cozinha.
+                </p>
+                <p>
+                  Mas de longe, onde mais me divirto, aprendo e busco ensinar é
+                  no meu papel de Pai, sou completamente maluco pelo meu
+                  filhote.
+                </p>
+                <p>
+                  Seja na criação de soluções inovadoras, nas aventuras em meio
+                  a meus hobbies ou no meu tempo de qualidade com minha família,
+                  tem uma coisa que sempre me acompanha, a paixão por tudo
+                  aquilo que faço.
+                </p>
+                <p>Venha descobrir mais sobre mim e minhas paixões!</p>
+              </div>
             </div>
           </div>
         </section>
