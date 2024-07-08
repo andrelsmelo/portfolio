@@ -88,7 +88,7 @@ export default function Home() {
         </section>
         <section
           id="contact"
-          className="w-full py-12 md:py-24 lg:py-28 border-t"
+          className="w-full pt-12 pb-4 md:py-24 lg:py-28 border-t"
         >
           <div className="container grid items-center justify-center gap-4 px-4 text-center md:px-6">
             <div className="space-y-3">
@@ -98,25 +98,6 @@ export default function Home() {
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 {t('contactDescription')}
               </p>
-            </div>
-            <div className="mx-auto w-full max-w-sm space-y-2">
-              <form className="flex flex-col gap-2">
-                <input
-                  type="text"
-                  placeholder={t('contactNamePlaceholder')}
-                  className="max-w-lg flex-1"
-                />
-                <input
-                  type="email"
-                  placeholder={t('contactEmailPlaceholder')}
-                  className="max-w-lg flex-1"
-                />
-                <textarea
-                  placeholder={t('contactMessagePlaceholder')}
-                  className="max-w-lg flex-1"
-                />
-                <button type="submit">{t('contactButton')}</button>
-              </form>
             </div>
           </div>
           <SocialLinks />
