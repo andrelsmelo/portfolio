@@ -58,6 +58,10 @@
     {
       "title": "Doc Gen Ext",
       "description": "Una extensión para generar documentos válidos brasileños."
+    },
+    {
+      "title": "Generador de CPF",
+      "description": "Sitio web para generar CPF válidos."
     }
   ],
   "LocaleSwitcher": {

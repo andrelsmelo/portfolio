@@ -58,6 +58,10 @@
     {
       "title": "Doc Gen Ext",
       "description": "An extension to generate valid Brazilian documents."
+    },
+    {
+      "title": "CPF generator",
+      "description": "Website to generate valid CPFs."
     }
   ],
   "LocaleSwitcher": {

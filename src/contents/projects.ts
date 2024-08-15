@@ -62,5 +62,14 @@ export default function GetProjects(): Project[] {
       code: astley,
       status: Status.DONE,
     },
+    {
+      id: 7,
+      title: t('6.title'),
+      description: t('6.description'),
+      image: 'cpf.jpeg',
+      live: 'https://gerar-cpf.andrelsmelo.tech/',
+      code: 'https://github.com/andrelsmelo/generate-cpf',
+      status: Status.DONE,
+    },
   ]
 }
